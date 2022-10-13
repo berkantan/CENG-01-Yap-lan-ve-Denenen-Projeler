@@ -1,0 +1,151 @@
+             body
+                {
+                background-image: url(zemin3.jpg);
+                background-color: #fdb927ce ; 
+                margin-left: 150px;
+                margin-right: 150px;
+                margin-top: -20px;
+                margin-bottom: 50px;
+                }
+                .container1
+                {
+                    width: 90%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    background-color: #fdb927ce ; 
+                    padding: 15px 25px;
+
+                }
+
+
+
+            h1
+                {
+                font-family:  Lucida Sans Regular ;
+                font-size: 72px;
+                text-align: center;
+                color: whitesmoke;
+                background-color: #552583;
+                border-radius: 5px;
+                
+            }
+            h2
+            {
+                background-color: #552583;
+                font-size: 26px;
+                border-radius: 5px;
+                color: whitesmoke;
+            }
+            
+            p
+            {
+                font-size: 14px;
+                color: rgb(66, 65, 65);
+            }
+            .container {
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: rgba(243, 255, 230, 0.9);
+                padding: 15px 25px;
+              }
+        header
+        { 
+            text-align: center;
+            
+        }   
+        .organizing1
+        {
+            width: 500px;
+            margin: auto;
+        }
+        .leftside
+        {
+            float: left;
+            padding:0 10px 10px 0;
+        }
+        iframe
+        {
+            border-radius: 5px;
+            border-style:groove;
+            border-color: #552583;
+            }
+        .organising2
+        {
+            width: 500px;
+            margin: auto;
+        }
+        .leftside
+        {
+            float: left;
+            padding:0 10px 10px 0;
+        }
+        .rightside
+        {
+            float: left;
+            padding:0 18px 18px 0;
+            width: 200px;
+            height: 150px;
+            margin-left: 1px;
+
+        }
+        table
+        {
+        border-radius: 5px;
+        }
+        th 
+        {
+            background-color: #552583;
+            color:whitesmoke;
+        }
+        tr:hover
+        {
+            background-color: #C6A1CF;
+        }
+
+        @import url('https://fonts.googleapis.com/css2? family=Nunito+Sans:wght@200&display=swap');
+
+        :root
+        {
+--font-style: 'Nunito Sans' , sans-serif;
+
+        }
+        .trans
+        {
+            font-family: var(--font-style);
+        }
+        ul
+        {
+            
+margin: 7%;
+width: 450px;
+display: flex;
+flex-direction: row;
+list-style: none;
+padding: 25px 0;
+border-radius: 25px;
+border: 0.1px solid #6d08ff;
+background-color: #18181b;
+box-shadow: 0 4px 8px 0 #e308ff, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+
+
+        li
+        {
+margin: auto;
+color: white;
+font-size: 20px;
+cursor: pointer;        
+}
+
+li:after
+ {
+    display: block;
+ }
+ 
+ li:hover:after 
+ {
+    transform: scaleX(1);
+ }
+
